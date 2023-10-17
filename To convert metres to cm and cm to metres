@@ -1,0 +1,19 @@
+# Python code to convert metres to cm and cm to metres
+
+# Function to convert meters to centimeters
+def meters_to_centimeters(meters):
+    return meters * 100
+
+# Function to convert centimeters to meters
+def centimeters_to_meters(centimeters):
+    return centimeters / 100
+
+# Example usage
+meters = 2.5
+centimeters = 250
+
+converted_to_centimeters = meters_to_centimeters(meters)
+converted_to_meters = centimeters_to_meters(centimeters)
+
+print(f"{meters} meters is {converted_to_centimeters} centimeters.")
+print(f"{centimeters} centimeters is {converted_to_meters} meters.")
